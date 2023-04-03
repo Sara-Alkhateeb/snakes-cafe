@@ -36,27 +36,18 @@ Unicorn Tears
 ''')
        
 
-# order = None
-# counter = 0
-
-
-# while order != "quit":
-#     order = input("> ")
-#     counter += 1
-    
-#     if order != "quit":
-#         if counter == 1:
-#             print(f"1 order of {order} has been added to your meal")
-#         else:
-#             print(f"{counter} obj_orders of {order} have been added to your meal")
-#     else:
-#         break
-
 menu = {
-    "Appetizers": ["Wings", "Cookies", "Spring Rolls"],
-    "Entrees": ["Salmon", "Steak", "Meat Tornado", "A Literal Garden"],
-    "Desserts": ["Ice Cream", "Cake", "Pie"],
-    "Drinks": ["Coffee", "Tea", "Unicorn Tears"]
+    "Appetizers": 
+    ["Wings", "Cookies", "Spring Rolls"],
+
+    "Entrees": 
+    ["Salmon", "Steak", "Meat Tornado", "A Literal Garden"],
+
+    "Desserts": 
+    ["Ice Cream", "Cake", "Pie"],
+
+    "Drinks": 
+    ["Coffee", "Tea", "Unicorn Tears"]
 }
 
 obj_orders = {}
