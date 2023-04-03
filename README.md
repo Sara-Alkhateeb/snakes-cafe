@@ -1,4 +1,4 @@
-# Snakes-Cafe Project (LAB01 - Class 01)
+# Snakes-Cafe Project (LAB01 - Class 01 -Intro to Python)
 
 ## Overview
 
