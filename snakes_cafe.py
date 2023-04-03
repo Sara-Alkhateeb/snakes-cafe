@@ -75,6 +75,6 @@ while order != "quit":
         else:
             print(f"{order} is not available in the menu. Please choose another dish")
     else:
-        print(f"Your order is contain of {obj_orders} , Thank you  ")
+        print(f"Your order contains of {obj_orders} , Thank you  ")
         break
 
