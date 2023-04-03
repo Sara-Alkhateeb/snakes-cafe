@@ -80,9 +80,10 @@ while order != "quit":
             if count == 1:
                 print(f"1 order of {order} has been added to your meal")
             else:
-                print(f"{count} obj_orders of {order} have been added to your meal")
+                print(f"{count} orders of {order} have been added to your meal")
         else:
-            print(f"{order} is not available in the menu. Please try again.")
+            print(f"{order} is not available in the menu. Please choose another dish")
     else:
+        print(f"Your order is contain of {obj_orders} , Thank you  ")
         break
 
